@@ -1,0 +1,9 @@
+W:\programs\repos\BO(BusinessObjects)\BO(BusinessObjects)\bin\Release\netcoreapp3.1\BO(BusinessObjects).deps.json
+W:\programs\repos\BO(BusinessObjects)\BO(BusinessObjects)\bin\Release\netcoreapp3.1\BO(BusinessObjects).dll
+W:\programs\repos\BO(BusinessObjects)\BO(BusinessObjects)\bin\Release\netcoreapp3.1\BO(BusinessObjects).pdb
+W:\programs\repos\BO(BusinessObjects)\BO(BusinessObjects)\obj\Release\netcoreapp3.1\BO(BusinessObjects).AssemblyInfoInputs.cache
+W:\programs\repos\BO(BusinessObjects)\BO(BusinessObjects)\obj\Release\netcoreapp3.1\BO(BusinessObjects).AssemblyInfo.cs
+W:\programs\repos\BO(BusinessObjects)\BO(BusinessObjects)\obj\Release\netcoreapp3.1\BO(BusinessObjects).dll
+W:\programs\repos\BO(BusinessObjects)\BO(BusinessObjects)\obj\Release\netcoreapp3.1\BO(BusinessObjects).pdb
+W:\programs\repos\BO(BusinessObjects)\BO(BusinessObjects)\obj\Release\netcoreapp3.1\BO(BusinessObjects).csprojAssemblyReference.cache
+W:\programs\repos\BO(BusinessObjects)\BO(BusinessObjects)\obj\Release\netcoreapp3.1\BO(BusinessObjects).csproj.CoreCompileInputs.cache

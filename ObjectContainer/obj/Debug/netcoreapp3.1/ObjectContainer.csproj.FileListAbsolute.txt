@@ -1,0 +1,17 @@
+W:\programs\repos\BO(BusinessObjects)\ObjectContainer\bin\Debug\netcoreapp3.1\ObjectContainer.deps.json
+W:\programs\repos\BO(BusinessObjects)\ObjectContainer\bin\Debug\netcoreapp3.1\ObjectContainer.dll
+W:\programs\repos\BO(BusinessObjects)\ObjectContainer\bin\Debug\netcoreapp3.1\ObjectContainer.pdb
+W:\programs\repos\BO(BusinessObjects)\ObjectContainer\obj\Debug\netcoreapp3.1\ObjectContainer.csprojAssemblyReference.cache
+W:\programs\repos\BO(BusinessObjects)\ObjectContainer\obj\Debug\netcoreapp3.1\ObjectContainer.AssemblyInfoInputs.cache
+W:\programs\repos\BO(BusinessObjects)\ObjectContainer\obj\Debug\netcoreapp3.1\ObjectContainer.AssemblyInfo.cs
+W:\programs\repos\BO(BusinessObjects)\ObjectContainer\obj\Debug\netcoreapp3.1\ObjectContainer.csproj.CoreCompileInputs.cache
+W:\programs\repos\BO(BusinessObjects)\ObjectContainer\obj\Debug\netcoreapp3.1\ObjectContainer.dll
+W:\programs\repos\BO(BusinessObjects)\ObjectContainer\obj\Debug\netcoreapp3.1\ObjectContainer.pdb
+W:\programs\BO(BusinessObjects)BackUp\ObjectContainer\bin\Debug\netcoreapp3.1\ObjectContainer.deps.json
+W:\programs\BO(BusinessObjects)BackUp\ObjectContainer\bin\Debug\netcoreapp3.1\ObjectContainer.dll
+W:\programs\BO(BusinessObjects)BackUp\ObjectContainer\bin\Debug\netcoreapp3.1\ObjectContainer.pdb
+W:\programs\BO(BusinessObjects)BackUp\ObjectContainer\obj\Debug\netcoreapp3.1\ObjectContainer.AssemblyInfoInputs.cache
+W:\programs\BO(BusinessObjects)BackUp\ObjectContainer\obj\Debug\netcoreapp3.1\ObjectContainer.AssemblyInfo.cs
+W:\programs\BO(BusinessObjects)BackUp\ObjectContainer\obj\Debug\netcoreapp3.1\ObjectContainer.csproj.CoreCompileInputs.cache
+W:\programs\BO(BusinessObjects)BackUp\ObjectContainer\obj\Debug\netcoreapp3.1\ObjectContainer.dll
+W:\programs\BO(BusinessObjects)BackUp\ObjectContainer\obj\Debug\netcoreapp3.1\ObjectContainer.pdb

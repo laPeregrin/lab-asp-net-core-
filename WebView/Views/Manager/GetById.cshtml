@@ -1,0 +1,41 @@
+﻿@model ObjectContainer.Objects.Manager;
+@{
+    ViewData["Title"] = "More info about manager";
+}
+
+<h1>Details about @Html.DisplayFor(model => model.FullName):</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Position)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Remark)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+
+        </tr>
+    </thead>
+
+    <tr>
+        <td>
+            @Html.DisplayFor(model => model.FullName)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.Position)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.Remark)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.Phone)
+        </td>
+    </tr>
+</table>
+

@@ -1,0 +1,283 @@
+{
+  "format": 1,
+  "restore": {
+    "W:\\programs\\BO(BusinessObjects)BackUp\\WebView\\WebView.csproj": {}
+  },
+  "projects": {
+    "W:\\programs\\BO(BusinessObjects)BackUp\\BL(BusinessLogic)\\BL(BusinessLogic).csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "W:\\programs\\BO(BusinessObjects)BackUp\\BL(BusinessLogic)\\BL(BusinessLogic).csproj",
+        "projectName": "BL(BusinessLogic)",
+        "projectPath": "W:\\programs\\BO(BusinessObjects)BackUp\\BL(BusinessLogic)\\BL(BusinessLogic).csproj",
+        "packagesPath": "C:\\Users\\Marshall\\.nuget\\packages\\",
+        "outputPath": "W:\\programs\\BO(BusinessObjects)BackUp\\BL(BusinessLogic)\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Marshall\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "W:\\programs\\BO(BusinessObjects)BackUp\\BO(BusinessObjects)\\BO(BusinessObjects).csproj": {
+                "projectPath": "W:\\programs\\BO(BusinessObjects)BackUp\\BO(BusinessObjects)\\BO(BusinessObjects).csproj"
+              },
+              "W:\\programs\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj": {
+                "projectPath": "W:\\programs\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "W:\\programs\\BO(BusinessObjects)BackUp\\BO(BusinessObjects)\\BO(BusinessObjects).csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "W:\\programs\\BO(BusinessObjects)BackUp\\BO(BusinessObjects)\\BO(BusinessObjects).csproj",
+        "projectName": "BO(BusinessObjects)",
+        "projectPath": "W:\\programs\\BO(BusinessObjects)BackUp\\BO(BusinessObjects)\\BO(BusinessObjects).csproj",
+        "packagesPath": "C:\\Users\\Marshall\\.nuget\\packages\\",
+        "outputPath": "W:\\programs\\BO(BusinessObjects)BackUp\\BO(BusinessObjects)\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Marshall\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "W:\\programs\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj": {
+                "projectPath": "W:\\programs\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "W:\\programs\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "W:\\programs\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj",
+        "projectName": "ObjectContainer",
+        "projectPath": "W:\\programs\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj",
+        "packagesPath": "C:\\Users\\Marshall\\.nuget\\packages\\",
+        "outputPath": "W:\\programs\\BO(BusinessObjects)BackUp\\ObjectContainer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Marshall\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "W:\\programs\\BO(BusinessObjects)BackUp\\WebView\\WebView.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "W:\\programs\\BO(BusinessObjects)BackUp\\WebView\\WebView.csproj",
+        "projectName": "WebView",
+        "projectPath": "W:\\programs\\BO(BusinessObjects)BackUp\\WebView\\WebView.csproj",
+        "packagesPath": "C:\\Users\\Marshall\\.nuget\\packages\\",
+        "outputPath": "W:\\programs\\BO(BusinessObjects)BackUp\\WebView\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Marshall\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "W:\\programs\\BO(BusinessObjects)BackUp\\BL(BusinessLogic)\\BL(BusinessLogic).csproj": {
+                "projectPath": "W:\\programs\\BO(BusinessObjects)BackUp\\BL(BusinessLogic)\\BL(BusinessLogic).csproj"
+              },
+              "W:\\programs\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj": {
+                "projectPath": "W:\\programs\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

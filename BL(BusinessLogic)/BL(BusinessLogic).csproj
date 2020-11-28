@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>BL_BusinessLogic_</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BO(BusinessObjects)\BO(BusinessObjects).csproj" />
+    <ProjectReference Include="..\ObjectContainer\ObjectContainer.csproj" />
+  </ItemGroup>
+
+</Project>
