@@ -15,3 +15,4 @@ W:\programs\BO(BusinessObjects)BackUp\ObjectContainer\obj\Debug\netcoreapp3.1\Ob
 W:\programs\BO(BusinessObjects)BackUp\ObjectContainer\obj\Debug\netcoreapp3.1\ObjectContainer.csproj.CoreCompileInputs.cache
 W:\programs\BO(BusinessObjects)BackUp\ObjectContainer\obj\Debug\netcoreapp3.1\ObjectContainer.dll
 W:\programs\BO(BusinessObjects)BackUp\ObjectContainer\obj\Debug\netcoreapp3.1\ObjectContainer.pdb
+W:\programs\BO(BusinessObjects)BackUp\ObjectContainer\obj\Debug\netcoreapp3.1\ObjectContainer.csprojAssemblyReference.cache
