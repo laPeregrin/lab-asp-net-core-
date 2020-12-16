@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewData["Title"] = "Choose your way";
+}
+
+@*<h1>Выбери кто ты</h1>
+    <hr />*@
+
+
+<div class="row">
+    <ul>
+        <li><a asp-controller="Account" asp-action="login">Менеджер войти</a></li>
+
+        <li><a asp-controller="Account" asp-action="Register">Менеджер регистрация</a>></li>
+
+        <li><a asp-action="loginContact" asp-controller="Account">Контакт войти</a> </li>
+
+        <li><a asp-action="registerContact" asp-controller="Account">Контакт регистрация</a></li>
+    </ul>
+</div>
+
+
+
+

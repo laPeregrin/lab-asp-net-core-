@@ -1,4 +1,5 @@
 ﻿using BL_BusinessLogic_;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
@@ -25,7 +26,7 @@ namespace WebView.Controllers
             _service = service;
             _cache = cache;
         }
-
+        [Authorize]
         public async Task<IActionResult> GetAll()
         {
             try
@@ -57,7 +58,7 @@ namespace WebView.Controllers
 
         }
 
-
+        [Authorize(Policy = "Manager")]
         [HttpGet]
         public async Task<IActionResult> GetById(Guid? id)
         {
@@ -78,6 +79,7 @@ namespace WebView.Controllers
                 return RedirectToAction("GetAll", "Manager");
             }
         }
+        [Authorize(Policy = "Administrator")]
         [HttpGet]
         public async Task<IActionResult> Delete(Guid id)
         {

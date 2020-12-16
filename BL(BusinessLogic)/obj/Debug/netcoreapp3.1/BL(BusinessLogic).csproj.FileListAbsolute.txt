@@ -26,3 +26,17 @@ W:\programs\BO(BusinessObjects)BackUp\BL(BusinessLogic)\obj\Debug\netcoreapp3.1\
 W:\programs\BO(BusinessObjects)BackUp\BL(BusinessLogic)\obj\Debug\netcoreapp3.1\BL(BusinessLogic).csproj.CopyComplete
 W:\programs\BO(BusinessObjects)BackUp\BL(BusinessLogic)\obj\Debug\netcoreapp3.1\BL(BusinessLogic).dll
 W:\programs\BO(BusinessObjects)BackUp\BL(BusinessLogic)\obj\Debug\netcoreapp3.1\BL(BusinessLogic).pdb
+W:\programs\git_repos\BO(BusinessObjects)BackUp\BL(BusinessLogic)\bin\Debug\netcoreapp3.1\BL(BusinessLogic).deps.json
+W:\programs\git_repos\BO(BusinessObjects)BackUp\BL(BusinessLogic)\bin\Debug\netcoreapp3.1\BL(BusinessLogic).dll
+W:\programs\git_repos\BO(BusinessObjects)BackUp\BL(BusinessLogic)\bin\Debug\netcoreapp3.1\BL(BusinessLogic).pdb
+W:\programs\git_repos\BO(BusinessObjects)BackUp\BL(BusinessLogic)\bin\Debug\netcoreapp3.1\BO(BusinessObjects).dll
+W:\programs\git_repos\BO(BusinessObjects)BackUp\BL(BusinessLogic)\bin\Debug\netcoreapp3.1\ObjectContainer.dll
+W:\programs\git_repos\BO(BusinessObjects)BackUp\BL(BusinessLogic)\bin\Debug\netcoreapp3.1\BO(BusinessObjects).pdb
+W:\programs\git_repos\BO(BusinessObjects)BackUp\BL(BusinessLogic)\bin\Debug\netcoreapp3.1\ObjectContainer.pdb
+W:\programs\git_repos\BO(BusinessObjects)BackUp\BL(BusinessLogic)\obj\Debug\netcoreapp3.1\BL(BusinessLogic).csprojAssemblyReference.cache
+W:\programs\git_repos\BO(BusinessObjects)BackUp\BL(BusinessLogic)\obj\Debug\netcoreapp3.1\BL(BusinessLogic).AssemblyInfoInputs.cache
+W:\programs\git_repos\BO(BusinessObjects)BackUp\BL(BusinessLogic)\obj\Debug\netcoreapp3.1\BL(BusinessLogic).AssemblyInfo.cs
+W:\programs\git_repos\BO(BusinessObjects)BackUp\BL(BusinessLogic)\obj\Debug\netcoreapp3.1\BL(BusinessLogic).csproj.CoreCompileInputs.cache
+W:\programs\git_repos\BO(BusinessObjects)BackUp\BL(BusinessLogic)\obj\Debug\netcoreapp3.1\BL(BusinessLogic).csproj.CopyComplete
+W:\programs\git_repos\BO(BusinessObjects)BackUp\BL(BusinessLogic)\obj\Debug\netcoreapp3.1\BL(BusinessLogic).dll
+W:\programs\git_repos\BO(BusinessObjects)BackUp\BL(BusinessLogic)\obj\Debug\netcoreapp3.1\BL(BusinessLogic).pdb

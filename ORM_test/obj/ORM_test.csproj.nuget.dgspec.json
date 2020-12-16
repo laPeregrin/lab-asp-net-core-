@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "W:\\programs\\BO(BusinessObjects)BackUp\\ORM_test\\ORM_test.csproj": {}
+    "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\ORM_test\\ORM_test.csproj": {}
   },
   "projects": {
-    "W:\\programs\\BO(BusinessObjects)BackUp\\BL(BusinessLogic)\\BL(BusinessLogic).csproj": {
+    "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\BL(BusinessLogic)\\BL(BusinessLogic).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\programs\\BO(BusinessObjects)BackUp\\BL(BusinessLogic)\\BL(BusinessLogic).csproj",
+        "projectUniqueName": "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\BL(BusinessLogic)\\BL(BusinessLogic).csproj",
         "projectName": "BL(BusinessLogic)",
-        "projectPath": "W:\\programs\\BO(BusinessObjects)BackUp\\BL(BusinessLogic)\\BL(BusinessLogic).csproj",
+        "projectPath": "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\BL(BusinessLogic)\\BL(BusinessLogic).csproj",
         "packagesPath": "C:\\Users\\Marshall\\.nuget\\packages\\",
-        "outputPath": "W:\\programs\\BO(BusinessObjects)BackUp\\BL(BusinessLogic)\\obj\\",
+        "outputPath": "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\BL(BusinessLogic)\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -30,12 +30,13 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "W:\\programs\\BO(BusinessObjects)BackUp\\BO(BusinessObjects)\\BO(BusinessObjects).csproj": {
-                "projectPath": "W:\\programs\\BO(BusinessObjects)BackUp\\BO(BusinessObjects)\\BO(BusinessObjects).csproj"
+              "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\BO(BusinessObjects)\\BO(BusinessObjects).csproj": {
+                "projectPath": "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\BO(BusinessObjects)\\BO(BusinessObjects).csproj"
               },
-              "W:\\programs\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj": {
-                "projectPath": "W:\\programs\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj"
+              "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj": {
+                "projectPath": "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj"
               }
             }
           }
@@ -48,6 +49,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -63,18 +65,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "W:\\programs\\BO(BusinessObjects)BackUp\\BO(BusinessObjects)\\BO(BusinessObjects).csproj": {
+    "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\BO(BusinessObjects)\\BO(BusinessObjects).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\programs\\BO(BusinessObjects)BackUp\\BO(BusinessObjects)\\BO(BusinessObjects).csproj",
+        "projectUniqueName": "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\BO(BusinessObjects)\\BO(BusinessObjects).csproj",
         "projectName": "BO(BusinessObjects)",
-        "projectPath": "W:\\programs\\BO(BusinessObjects)BackUp\\BO(BusinessObjects)\\BO(BusinessObjects).csproj",
+        "projectPath": "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\BO(BusinessObjects)\\BO(BusinessObjects).csproj",
         "packagesPath": "C:\\Users\\Marshall\\.nuget\\packages\\",
-        "outputPath": "W:\\programs\\BO(BusinessObjects)BackUp\\BO(BusinessObjects)\\obj\\",
+        "outputPath": "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\BO(BusinessObjects)\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -93,9 +95,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "W:\\programs\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj": {
-                "projectPath": "W:\\programs\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj"
+              "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj": {
+                "projectPath": "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj"
               }
             }
           }
@@ -108,6 +111,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -147,18 +151,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "W:\\programs\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj": {
+    "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\programs\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj",
+        "projectUniqueName": "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj",
         "projectName": "ObjectContainer",
-        "projectPath": "W:\\programs\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj",
+        "projectPath": "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj",
         "packagesPath": "C:\\Users\\Marshall\\.nuget\\packages\\",
-        "outputPath": "W:\\programs\\BO(BusinessObjects)BackUp\\ObjectContainer\\obj\\",
+        "outputPath": "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\ObjectContainer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -177,6 +181,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -188,6 +193,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -203,18 +209,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "W:\\programs\\BO(BusinessObjects)BackUp\\ORM_test\\ORM_test.csproj": {
+    "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\ORM_test\\ORM_test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\programs\\BO(BusinessObjects)BackUp\\ORM_test\\ORM_test.csproj",
+        "projectUniqueName": "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\ORM_test\\ORM_test.csproj",
         "projectName": "ORM_test",
-        "projectPath": "W:\\programs\\BO(BusinessObjects)BackUp\\ORM_test\\ORM_test.csproj",
+        "projectPath": "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\ORM_test\\ORM_test.csproj",
         "packagesPath": "C:\\Users\\Marshall\\.nuget\\packages\\",
-        "outputPath": "W:\\programs\\BO(BusinessObjects)BackUp\\ORM_test\\obj\\",
+        "outputPath": "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\ORM_test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -233,12 +239,13 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "W:\\programs\\BO(BusinessObjects)BackUp\\BL(BusinessLogic)\\BL(BusinessLogic).csproj": {
-                "projectPath": "W:\\programs\\BO(BusinessObjects)BackUp\\BL(BusinessLogic)\\BL(BusinessLogic).csproj"
+              "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\BL(BusinessLogic)\\BL(BusinessLogic).csproj": {
+                "projectPath": "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\BL(BusinessLogic)\\BL(BusinessLogic).csproj"
               },
-              "W:\\programs\\BO(BusinessObjects)BackUp\\BO(BusinessObjects)\\BO(BusinessObjects).csproj": {
-                "projectPath": "W:\\programs\\BO(BusinessObjects)BackUp\\BO(BusinessObjects)\\BO(BusinessObjects).csproj"
+              "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\BO(BusinessObjects)\\BO(BusinessObjects).csproj": {
+                "projectPath": "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\BO(BusinessObjects)\\BO(BusinessObjects).csproj"
               }
             }
           }
@@ -251,6 +258,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -284,7 +292,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

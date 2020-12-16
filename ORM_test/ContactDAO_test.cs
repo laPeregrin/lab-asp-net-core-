@@ -66,7 +66,7 @@ namespace ORM_test
         public void GetByIdGuid_GUID_ReturnNULLUserFromDataBase()
         {
             //arrange
-            string data = "b0c20afc-fbc8-408d-882c-9086fbe12d62";
+            string data = "fe9d144f-b84a-4aba-b0b1-50cbe930e57c";
             Guid id = new Guid(data);
             Contact user = new Contact();
 
@@ -75,8 +75,10 @@ namespace ORM_test
             try
             {
                 user = _service.Get(id);
+                Assert.IsNotNull(user, "user is null");
             }
             //assert
+            
             catch (Exception e)
             {
                 Assert.AreEqual(null, user, $"Didnt take null user by not exist id{e.Message}");
@@ -92,10 +94,10 @@ namespace ORM_test
 
             //act
             var user = (List<Contact>)_service.GetAll();
-
+            bool succes = user.Count != 0;
             //assert
 
-            Assert.AreEqual(2, user.Count, "Didnt take users from collection");
+            Assert.IsTrue(succes, "Didnt take users from collection");
         }
         [Test]
         public void Add_newContactToDataBaseContact_ReturnTrue()

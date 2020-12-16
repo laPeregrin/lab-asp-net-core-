@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "W:\\programs\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj",
+      "projectUniqueName": "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj",
       "projectName": "ObjectContainer",
-      "projectPath": "W:\\programs\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj",
+      "projectPath": "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\ObjectContainer\\ObjectContainer.csproj",
       "packagesPath": "C:\\Users\\Marshall\\.nuget\\packages\\",
-      "outputPath": "W:\\programs\\BO(BusinessObjects)BackUp\\ObjectContainer\\obj\\",
+      "outputPath": "W:\\programs\\git_repos\\BO(BusinessObjects)BackUp\\ObjectContainer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -37,6 +37,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -48,6 +49,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -63,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

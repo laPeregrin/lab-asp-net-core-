@@ -4,7 +4,7 @@
     <title>@ViewData["Title"] - View</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="~/css/main.css"/>
+    <link rel="stylesheet" href="~/css/main.css" />
 </head>
 <body class="is-preload">
 
@@ -21,8 +21,35 @@
                     <ul class="icons">
                         <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
                         <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                        <li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
                         <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                    </ul>
+                    <ul class="icons">
+                        <li>
+                            <a>
+
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <a>You signed in as</a>
+                                    if (User.Claims.Any(x => x.Value.Contains("Manager")))
+                                    {
+                                        <a>Manager</a>
+                                    }
+                                    if (User.Claims.Any(x => x.Value.Contains("Contact")))
+                                    {
+                                        <a>Contact</a>
+                                    }
+                                    if (User.Claims.Any(x => x.Value.Contains("Administrator")))
+                                    {
+                                        <a>Administrator</a>
+                                    }
+                                }
+                                else
+                                {
+                                    <a>You are not authorised</a>
+                                }
+                            </a>
+                        </li>
+
                     </ul>
                 </header>
 
@@ -148,7 +175,7 @@
                     <ul>
                         <li><a asp-controller="Home" asp-action="Index">Home</a></li>
                         <li><a asp-controller="Manager" asp-action="GetAll">All Managers</a></li>
-                        <li><a asp-controller="Manager" asp-action="Registration">Sign in as Managers</a></li>
+                        <li><a asp-controller="Account" asp-action="login">Sign in as Managers</a></li>
                         <li><a asp-controller="Contacts" asp-action="Details">All Contacts</a></li>
                         <li><a asp-controller="Account" asp-action="loginContact">Sighn in as Contact</a></li>
                     </ul>
@@ -174,7 +201,7 @@
                         </article>
                     </div>
                     <ul class="actions">
-                        <li><a asp-action="login" asp-controller="Account" class="button">Войти</a></li>
+                        <li><a asp-action="LogOut" asp-controller="Account" class="button">Выйти</a></li>
                     </ul>
                 </section>
 

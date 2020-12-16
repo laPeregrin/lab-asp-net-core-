@@ -10,4 +10,8 @@
     <ProjectReference Include="..\ObjectContainer\ObjectContainer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+
 </Project>

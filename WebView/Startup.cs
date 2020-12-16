@@ -2,18 +2,18 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using BL_BusinessLogic_;
-using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using ObjectContainer.Objects;
-using WebView.Loggers;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using BL_BusinessLogic_;
+using WebView.Roles;
+using System.Security.Claims;
 
 namespace WebView
 {
@@ -29,11 +29,31 @@ namespace WebView
         public void ConfigureServices(IServiceCollection services)
         {
             services
-                .AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(options =>
+                .AddAuthentication("Cookie")
+                .AddCookie("Cookie", options =>
+                 {
+                     options.LoginPath = "/Account/GetRegistrationView";
+                     options.AccessDeniedPath = "/Main/Index";
+                 });
+            services
+                .AddAuthorization(options =>
                 {
-                    options.LoginPath = new Microsoft.AspNetCore.Http.PathString("/Account/login");
+                    options.AddPolicy("Manager", builder =>
+                    {
+                        builder.RequireAssertion(x => x.User.HasClaim(ClaimTypes.Role, "Manager")
+                        || x.User.HasClaim(ClaimTypes.Role, "Contacts"));
+                    });
+                    options.AddPolicy("Contact", builder =>
+                    {
+                        builder.RequireClaim(ClaimTypes.Role, "Contact");
+                    });
+                    options.AddPolicy("Administrator", builder =>
+                    {
+                        builder.RequireAssertion(x => x.User.HasClaim(ClaimTypes.Role, "Administrator"));
+                    });
                 });
+
+
             services
                 .AddControllersWithViews();
             services
@@ -44,7 +64,7 @@ namespace WebView
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -52,7 +72,7 @@ namespace WebView
             else
             {
                 app.UseExceptionHandler("/Home/Error");
-               
+
                 app.UseHsts();
             }
 
@@ -66,7 +86,7 @@ namespace WebView
             app.UseAuthentication();
             //are you alloved?
             app.UseAuthorization();
-            
+
 
             app.UseEndpoints(endpoints =>
             {

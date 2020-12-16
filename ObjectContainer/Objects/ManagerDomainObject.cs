@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace ObjectContainer.Objects
 {
-    public class ManagerDomainObject
+    public class ManagerDomainObject : DomainObj
     {
-        public Guid id { get; set; }
     }
 }

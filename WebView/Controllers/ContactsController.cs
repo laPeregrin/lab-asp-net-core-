@@ -9,6 +9,7 @@ using WebView.Loggers;
 using Microsoft.Extensions.Caching.Memory;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebView.Controllers
 {
@@ -34,7 +35,8 @@ namespace WebView.Controllers
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        [Authorize(Policy = "Administrator")]
+        [ResponseCache(Duration = 10, Location = ResponseCacheLocation.Client, NoStore = false)]
         [HttpGet]
         public async Task<IActionResult> GetById(Guid? id)
         {
@@ -57,7 +59,7 @@ namespace WebView.Controllers
                 return RedirectToAction("Contacts", "Details");
             }
         }
-
+        [Authorize]
         [HttpGet]
         public IActionResult Details()
         {
@@ -75,7 +77,7 @@ namespace WebView.Controllers
 
             return View(collection);
         }
-
+        [Authorize(Policy = "Administrator")]
         [HttpGet]
         public IActionResult Delete(Guid id)
         {

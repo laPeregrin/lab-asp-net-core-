@@ -20,7 +20,7 @@
 
   <ItemGroup>
     <Reference Include="GenerateRandomData">
-      <HintPath>..\..\repos\skripts\GenerateRandomData\GenerateRandomData\obj\Debug\netcoreapp3.1\GenerateRandomData.dll</HintPath>
+      <HintPath>..\..\..\repos\skripts\GenerateRandomData\GenerateRandomData\bin\Debug\netcoreapp3.1\GenerateRandomData.dll</HintPath>
     </Reference>
   </ItemGroup>
 
